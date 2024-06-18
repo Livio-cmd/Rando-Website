@@ -1,0 +1,31 @@
+.about {
+
+    .container {
+        justify-content: space-between;
+        overflow: hidden;
+        width: 100%;
+        gap: 96px;
+
+       .img-container{
+            max-height: 400px;
+            width: 50%;
+
+            img{
+                width: 50%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+       }
+
+        .col{
+            justify-content: space-between;
+            width: 50%;
+        }
+    }
+
+
+    .button {
+        width: fit-content;
+    }
+}

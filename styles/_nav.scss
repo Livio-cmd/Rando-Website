@@ -1,0 +1,71 @@
+header{
+width: 100%;
+height: 100vh;
+
+padding-bottom: 25px;
+
+background-image: url('https://picsum.photos/1920/1080');
+background-size: cover;
+background-position: center;
+
+align-items: center;
+justify-content: flex-end;
+
+position: relative;
+
+.container {
+    z-index: 3;
+    padding: 25px 50px;
+    color: #1C1C1C;
+
+    h2 {
+        letter-spacing: .2em;
+        padding: 28px 0;
+        font-size: 35px;
+    }
+
+    i{
+        font-size: 28px;
+    }
+}
+
+}
+
+nav{
+    z-index: 1000;
+    padding: 25px 48px;
+    background-color: white;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    #logo {
+        margin-right: 28px;
+        font-weight: bolder;
+        font-size: 16px;
+        letter-spacing: 0;
+        letter-spacing: .1rem;
+
+        &:hover{
+            color: inherit;
+            background-color: inherit;
+        }
+    }
+
+    ul {
+        align-items: center;
+        gap: 8px;
+
+        a{
+            padding: 10px 10px;
+        }
+
+        a:hover{
+            color: white;
+            background-color: $green;
+        }
+    }
+
+}

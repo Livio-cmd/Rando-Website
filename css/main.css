@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("../Assets/Fonts/CaviarDreams.woff2") format("woff2"), url("../Assets/Fonts/CaviarDreams.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+h1, h2, h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-family: "Caviar Dreams";
+  font-weight: bolder;
+}
+h1::-moz-selection, h2::-moz-selection, h3::-moz-selection {
+  color: white;
+  background-color: #E54B4B;
+}
+h1::selection, h2::selection, h3::selection {
+  color: white;
+  background-color: #E54B4B;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+a, .button, button {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transition: all 200ms ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgb(2, 89, 81);
+  color: white;
+  padding: 10px 28px;
+  outline-offset: -2px;
+}
+.button:hover {
+  background-color: #E54B4B;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  gap: 28px;
+}
+
+p, span {
+  line-height: 1.65rem;
+}
+
+.type {
+  color: #fff;
+  font-weight: bolder;
+  background-color: rgb(2, 89, 81);
+  padding: 5px 10px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 25px;
+  background-image: url("https://picsum.photos/1920/1080");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+header .container {
+  z-index: 3;
+  padding: 25px 50px;
+  color: #1C1C1C;
+}
+header .container h2 {
+  letter-spacing: 0.2em;
+  padding: 28px 0;
+  font-size: 35px;
+}
+header .container i {
+  font-size: 28px;
+}
+
+nav {
+  z-index: 1000;
+  padding: 25px 48px;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+nav #logo {
+  margin-right: 28px;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 0;
+  letter-spacing: 0.1rem;
+}
+nav #logo:hover {
+  color: inherit;
+  background-color: inherit;
+}
+nav ul {
+  align-items: center;
+  gap: 8px;
+}
+nav ul a {
+  padding: 10px 10px;
+}
+nav ul a:hover {
+  color: white;
+  background-color: rgb(2, 89, 81);
+}
+
+.about .container {
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  gap: 96px;
+}
+.about .container .img-container {
+  max-height: 400px;
+  width: 50%;
+}
+.about .container .img-container img {
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.about .container .col {
+  justify-content: space-between;
+  width: 50%;
+}
+.about .button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.new {
+  max-width: 800px !important;
+}
+.new a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-transform: none;
+  letter-spacing: inherit;
+  transition: all 200ms ease-in-out;
+}
+.new h2 {
+  padding-bottom: 96px;
+}
+.new .liste {
+  display: flex;
+  flex-direction: column;
+}
+.new article {
+  width: 100%;
+  transition: all 200ms ease-in-out;
+  background-color: rgba(128, 128, 128, 0.05);
+}
+.new article:hover {
+  transform: scale(0.99);
+}
+.new article .title {
+  display: block;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 150%;
+  transition: all 150ms ease-in-out;
+}
+.new article .title:hover {
+  color: #E54B4B;
+}
+.new article .img-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.new article .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.new article .type {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.new article .content {
+  gap: 48px;
+  margin-top: 28px;
+  padding: 14px;
+  padding-top: 0;
+}
+.new article .content .row {
+  align-items: center;
+}
+.new article .content p {
+  text-align: justify;
+}
+
+footer {
+  background-color: rgb(2, 89, 81);
+  color: white;
+  font-weight: light;
+  max-width: none !important;
+}
+
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: rgb(2, 89, 81);
+}
+
+::selection {
+  color: white;
+  background-color: rgb(2, 89, 81);
+}
+
+body {
+  background-color: #ffffff;
+  color: #1C1C1C;
+  width: 100%;
+  min-height: 150vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: light;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  display: block;
+}
+
+.wrapped {
+  padding: 192px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.side {
+  width: 50%;
+}
+
+hr {
+  border-color: rgb(221, 221, 221);
+  opacity: 0.3;
+  border-width: 1px;
+}
+
+.stats {
+  justify-content: space-between;
+}
+.stats .difficulte-box {
+  gap: 4px !important;
+}
+.stats .difficulte-box i {
+  padding-right: 10px;
+}
+.stats .difficulte-box .rect {
+  width: 15px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.stats .difficulte-box .active {
+  background-color: rgb(2, 89, 81);
+}
+.stats .item {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  gap: 14px;
+}
+.stats .item i {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

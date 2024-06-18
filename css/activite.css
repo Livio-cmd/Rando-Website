@@ -1,0 +1,108 @@
+.activite h1 {
+  letter-spacing: 0;
+  font-family: "Poppins";
+  letter-spacing: 0.2rem;
+  font-size: 28px;
+  color: white;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 800px;
+}
+.activite h2 {
+  letter-spacing: 0;
+  font-family: "Poppins";
+  letter-spacing: 0.2rem;
+  font-size: 28px;
+  color: rgb(2, 89, 81);
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 800px;
+  padding-bottom: 48px;
+}
+.activite h3 {
+  letter-spacing: 0;
+  font-family: "Poppins";
+  letter-spacing: 0.05rem !important;
+  font-size: 24px;
+  color: #E54B4B;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 800px;
+  padding: 48px 0 20px 0;
+}
+.activite .details-span {
+  width: 100%;
+  justify-content: space-between;
+}
+.activite header {
+  background-image: url("https://images.unsplash.com/uploads/141148589884100082977/a816dbd7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  align-items: flex-start;
+}
+.activite .button {
+  background-color: #E54B4B;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bolder;
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.activite .button:hover {
+  background-color: rgb(2, 89, 81);
+}
+.activite .button i {
+  padding-left: 14px;
+  font-size: 24px;
+}
+.activite .doc {
+  padding: 96px 0;
+  width: 100%;
+  justify-content: space-between;
+  gap: 28px;
+  position: relative;
+}
+.activite .left {
+  gap: 14px;
+  min-width: 70%;
+  max-width: 70%;
+}
+.activite .left img {
+  max-width: 80%;
+  padding: 24px 0;
+}
+.activite .right {
+  align-items: flex-end;
+}
+.activite .right .container {
+  gap: 14px;
+}
+.activite .right p, .activite .right span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.activite .right img {
+  width: 100%;
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.activite .right .btn-container {
+  width: 100%;
+}
+.activite .right .btn-container .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 24px 0;
+}
+.activite .type {
+  padding: 5px 10px;
+}
+.activite .stats {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 24px;
+  margin: 48px 0;
+  padding: 14px;
+}/*# sourceMappingURL=activite.css.map */
